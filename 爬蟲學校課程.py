@@ -9,6 +9,7 @@ from bs4 import BeautifulSoup
 import getpass
 import re
 import getpass
+import requests
 s = requests.Session()
 url = 'https://ilearn2.fcu.edu.tw/login/index.php'#開f12看清楚
 username = input("請輸入學號")
